@@ -23,6 +23,6 @@ The user can switch to a different `wrap_width` using the following default key 
 - CTRL + Left Arrow: cycle right to left in the list (usually decreasing the width)
 - CTRL + Right Arrow: cycle left to right in the list (usually increasing the width)
 
-## TODO
+## TODO
 
 - [ ] add unit tests
