@@ -1,0 +1,12 @@
+[
+    { 
+        "keys": ["super+alt+left"] , 
+        "command": "wrap_cycle",
+        "args": {"forward": false}
+    },
+    {
+        "keys": ["super+alt+right"] , 
+        "command": "wrap_cycle",
+        "args": {"forward": true}
+    }
+]
