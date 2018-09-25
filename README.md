@@ -11,7 +11,7 @@ Although it's fairly easy to change `wrap_width` I like to have a keyboard short
 1. Open the user preferences `Sublime Text > Preferences > Settings`
 2. In the *User* preferences, set the `rulers` option to your desired cycle points e.g. `[80, 100, 120]`
 3. Open the user key bindings at `Sublime Text > Preferences > Key bindings`
-4. Copy paste the the key mappings from [WrapCycle.sublime-keymap] - without the enclosing `[]`
+4. Copy paste the the key mappings from (WrapCycle.sublime-keymap) - without the enclosing `[]`
 5. Use the key mappings to cycle forward or backward as required.
 
 Note the changed wrap width will appear in the status. Changing it manually will not update the status message.
