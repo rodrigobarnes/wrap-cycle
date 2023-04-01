@@ -23,7 +23,7 @@ class WrapCycleCommand(sublime_plugin.WindowCommand):
 
             rulers = settings.get(self.RULERS_PROPERTY, self.RULERS_DEFAULT)
             if rulers == None or len(rulers) == 0:
-                rulers = RULERS_DEFAULT
+                rulers = self.RULERS_DEFAULT
 
             wrap_width_setting = settings.get(self.WRAP_WIDTH_PROPERTY, self.WRAP_WIDTH_DEFAULT)
             # for some reason you might get 0 instead of `WRAP_WIDTH_DEFAULT` 
